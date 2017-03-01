@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'ClearSans_r';
+  font-style: normal;
+  font-weight: normal;
+  src: local('ClearSans'), url('../fonts/ClearSans-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'ClearSans_m';
+  font-style: normal;
+  font-weight: normal;
+  src: local('ClearSans'), url('../fonts/ClearSans-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'ClearSans_l';
+  font-style: normal;
+  font-weight: normal;
+  src: local('ClearSans'), url('../fonts/ClearSans-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'ClearSans_t';
+  font-style: normal;
+  font-weight: normal;
+  src: local('ClearSans'), url('../fonts/ClearSans-Thin.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'ClearSans_b';
+  font-style: normal;
+  font-weight: normal;
+  src: local('ClearSans'), url('../fonts/ClearSans-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'ClearSans_bi';
+  font-style: normal;
+  font-weight: normal;
+  src: local('ClearSans'), url('../fonts/ClearSans-BoldItalic.ttf') format('truetype');
+}
+
+body, html {
+	padding: 0;
+	margin: 0;
+	font-family: "ClearSans_l";
+	font-size: 14px;
+
+
+}
+body{
+	background: #e7e7e7;
+	z-index: -999;
+	position: relative;
+	min-width: 900px;
+	overflow-x:hidden;
+}
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+}
+a:hover{
+	color: red;
+}
+.WRAPPER{
+	margin: auto;
+
+}
+
+.LOGO_HOLDER,.PRINT_HOLDER{
+	margin: 0 auto 0 auto;
+	overflow: hidden;
+	width: 830px;
+	border-bottom: 1px solid #bbb;
+	padding: 30px 0;
+}
+.LOGO_HOLDER{
+	margin-top: 25px;
+}
+.SUMMARY_HOLDER{
+	font-size: 18px;
+	width: 800px;
+	margin: 50px auto 100px auto;
+
+}
+.SUMMARY_HOLDER b{
+	font-family: 'ClearSans_m';
+}
+.PRINT_HOLDER img{
+	height: 90px;
+	margin: 0 0 0 15px;
+	border: 1px solid transparent;
+}
+.PRINT_HOLDER img:hover{
+	border-color: red;
+}
+.LOGO_HOLDER_L,.LOGO_HOLDER_R{
+	height: 300px;
+}
+.LOGO_HOLDER_L:hover > span,
+.LOGO_HOLDER_R:hover > span{
+}
+.LOGO_HOLDER_L:hover > span img,
+.LOGO_HOLDER_R:hover > span img{
+	display: block;
+}
+.LOGO_HOLDER_L:hover,.LOGO_HOLDER_R:hover{
+	cursor: pointer
+}
+.LOGO_HOLDER_L,.PRINT_HOLDER_L{
+	width: 370px;
+
+	float: left;
+}
+.LOGO_HOLDER_R,.PRINT_HOLDER_R{
+	width: 370px;
+
+	float: right;
+}
+.LOGO_HOLDER .LOGO_HOLDER_L img{
+	/*margin-left: 90px;*/
+}
+.LOGO_HOLDER span{
+	margin: 30px 0 0 15px;
+	display: block;
+	position: relative;
+}
+.LOGO_HOLDER span .goarrow{
+	width: 15px;
+	position: absolute;
+	top: 0;
+	left: 200px;
+	display: none;
+}
+.LOGO_HOLDER img{
+	width: 100%;
+	padding: 0px;
+}
+.re_pu_buttons{
+	width: 100%;
+	overflow: hidden;
+	font-size: 14px;
+}
+.readings_button,.publication_button{
+	padding: 20px 0;
+	float: left;
+	margin: 0 10px 0 0;
+}
+.readings_button a,.publication_button a{
+	border-radius: 2px;
+	padding: 4px 10px;
+	color: white;
+	font-family: 'ClearSans_l';
+}
+.readings_button a{
+	background: red;
+}
+.publication_button a{
+	background: black;
+}
+.readings_button a:hover{
+	background: black;
+}
+.publication_button a:hover{
+	background: red;
+}
+.titles{
+	margin: 15px 0 -15px 15px;
+	font-weight: bold;
+}
+
+
+

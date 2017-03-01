@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Beautiful Data</title>
+<link rel="shortcut icon" type="image/png" href="img/icon.png"/>
+<link rel="stylesheet" href="global.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+
+</head>
+<body>
+
+	<div class="WRAPPER">
+
+		<div class="LOGO_HOLDER">
+			<a href="/2014"><img class="main_logo" src='img/BeautifulDataLogo.png'></a></br>
+		
+
+
+			<div class="menu">
+				<p class="menu_button">
+					<b><a href="/2014/readings.html">Readings</a></b>
+				</p>
+				<p class="menu_button">
+					<b><a href="/2014/resources.html">Resources</a></b>
+				</p>
+				<p class="menu_button">
+					<b><a href="/2014/publications.html">Publications</a></b>
+				</p>
+				<p class="menu_button">
+					<b><a href="/2014/workshop.html">2014 Workshop</a></b>
+				</p>
+			</div>
+
+		</div>
+
+
+			<div class="sub_menu">
+				<p class="sub_menu_button">
+					<b><a href="/2014/workshop_overview.html">Overview</a></b>
+				</p>
+				<p class="sub_menu_button">
+					<b><a href="/2014/workshop_happened.html">What Happened</a></b>
+				</p>
+				<p class="sub_menu_button">
+					<b><a href="/2014/workshop_ongoing.html">Ongoing</a></b>
+				</p>
+			</div>
+
+		<div class="SUMMARY_HOLDER">
+			<b>Beautiful Data I Workshop</b>
+
+			<p><i>With art museums making both their imagery and collections data open and accessible, a question arises: what to do with it all?</i></p>
+
+			<p>From June 16-27, 2014, a diverse, elite group of scholars, curators, and technologists gathered at Harvard to consider this question. For the two intensive weeks that composed Beautiful Data, a summer institute held at metaLAB (at) Harvard with support from the Getty Foundation, this group addressed the complexities of working with open collections through a range of discussions, activities, and projects.</p>
+
+			<p>We hope that the dialogue and work that came out of this workshop will continue to have impact and grow, and this website is meant to be a resource for accessing, engaging with, and building on the workshop’s ideas, processes, and projects.</p>
+
+			<div class="grid">
+				<div class="grid_img"><img src="images/workshop/tumblr_n7zi2eb5GB1te8y47o1_1280.jpg"></a></div>
+				<div class="grid_img"><img src="images/workshop/tumblr_n7y8zvOzGk1te8y47o1_1280.png"></a></div>
+				<div class="grid_img"><img src="images/workshop/tumblr_n7y8x0aXm71te8y47o1_1280.jpg"></a></div>
+				<div class="grid_img"><img src="images/workshop/tumblr_n7y8pogvHn1te8y47o1_1280.jpg"></a></div>
+				
+				<div class="grid_img"><img src="images/workshop/tumblr_n7u51brDY01te8y47o1_1280.png"></a></div>
+				<div class="grid_img"><img src="images/workshop/tumblr_n7u3uz7HE01te8y47o1_1280.jpg"></a></div>
+				<div class="grid_img"><img src="images/workshop/tumblr_n7su0hshmQ1te8y47o1_1280.jpg"></a></div>
+				<div class="grid_img"><img src="images/workshop/tumblr_n7oyx2Dvlu1te8y47o1_1280.png"></a></div>
+				
+				<div class="grid_img"><img src="images/workshop/tumblr_n7oeu6o32W1te8y47o1_1280.png"></a></div>
+				<div class="grid_img"><img src="images/workshop/tumblr_n7n3698GIP1te8y47o1_1280.jpg"></a></div>
+				<div class="grid_img"><img src="images/workshop/tumblr_n7n1ewz9lK1te8y47o1_1280.jpg"></a></div>
+				<div class="grid_img"><img src="images/workshop/tumblr_n7mp0mez2q1te8y47o1_1280.png"></a></div>				
+				
+				<div class="grid_img"><img src="images/workshop/tumblr_n7mod9KIuh1te8y47o1_1280.jpg"></a></div>
+				<div class="grid_img"><img src="images/workshop/tumblr_n7ha7sskRC1te8y47o1_1280.png"></a></div>
+				<div class="grid_img"><img src="images/workshop/tumblr_n7h19lj1Zy1te8y47o1_1280.jpg"></a></div>
+				<div class="grid_img"><img src="images/workshop/tumblr_n7h11yrwMa1te8y47o1_1280.jpg"></a></div>
+				
+				<div class="grid_img"><img src="images/workshop/tumblr_n7h0upssVY1te8y47o1_1280.png"></a></div>
+				<div class="grid_img"><img src="images/workshop/tumblr_n7gzrv5moc1te8y47o1_1280.jpg"></a></div>
+				<div class="grid_img"><img src="images/workshop/tumblr_n7gzg7kZ0D1te8y47o1_1280.jpg"></a></div>
+				<div class="grid_img"><img src="images/workshop/tumblr_n7f6t4Fwp71te8y47o1_1280.jpg"></a></div>
+			</div>
+
+		</div>
+
+
+
+
+
+
+
+
+
+		</div>
+
+
+
+	</div>
+
+ <!-- Trigger/Open The Modal -->
+<div id="myBtn">Open Modal</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">x</span>
+    <p>Some text in the Modal..</p>
+  </div>
+</div>
+
+
+<script>
+$(document).ready(function() {
+
+	//IMAGE POPUP
+	// Get the modal
+	var modal = document.getElementById('myModal');
+	// Get the button that opens the modal
+	var btn = $('.grid_img')
+	// Get the <span> element that closes the modal
+	var span = document.getElementsByClassName("close")[0];
+
+	// When the user clicks on the button, open the modal
+	$( ".grid_img" ).click(function() {
+	    modal.style.display = "block";
+	    var get_img = $(this).html()
+	    $('.modal p').html(get_img)
+	});
+	$( ".close" ).click(function() {
+	    modal.style.display = "none";
+	});
+
+	//btn.onclick = function() {
+	  //  modal.style.display = "block";
+	//}
+	// When the user clicks on <span> (x), close the modal
+	//span.onclick = function() {
+	//    modal.style.display = "none";
+	//}
+	// When the user clicks anywhere outside of the modal, close it
+	window.onclick = function(event) {
+	    if (event.target == modal) {
+	        modal.style.display = "none";
+	    }
+	}
+
+
+
+
+
+});
+</script>
+
+</body>
+
+</html>
+

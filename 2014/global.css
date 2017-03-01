@@ -1,0 +1,314 @@
+@font-face {
+  font-family: 'ClearSans_r';
+  font-style: normal;
+  font-weight: normal;
+  src: local('ClearSans'), url('../fonts/ClearSans-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'ClearSans_m';
+  font-style: normal;
+  font-weight: normal;
+  src: local('ClearSans'), url('../fonts/ClearSans-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'ClearSans_l';
+  font-style: normal;
+  font-weight: normal;
+  src: local('ClearSans'), url('../fonts/ClearSans-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'ClearSans_t';
+  font-style: normal;
+  font-weight: normal;
+  src: local('ClearSans'), url('../fonts/ClearSans-Thin.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'ClearSans_b';
+  font-style: normal;
+  font-weight: normal;
+  src: local('ClearSans'), url('../fonts/ClearSans-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'ClearSans_bi';
+  font-style: normal;
+  font-weight: normal;
+  src: local('ClearSans'), url('../fonts/ClearSans-BoldItalic.ttf') format('truetype');
+}
+
+body, html {
+	padding: 0;
+	margin: 0;
+	font-family: "ClearSans_l";
+	font-size: 14px;
+
+
+}
+body{
+	background: #e7e7e7;
+	z-index: -999;
+	position: relative;
+	min-width: 900px;
+	overflow-x:hidden;
+}
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+}
+a:hover{
+	color: red;
+}
+.WRAPPER{
+	margin: auto;
+
+}
+
+.LOGO_HOLDER,.PRINT_HOLDER,.menu,.sub_menu{
+	margin: 0 auto 0 auto;
+	overflow: hidden;
+	width: 830px;
+}
+.menu,.sub_menu{
+	overflow: hidden;
+	margin-bottom: 0;
+}
+.sub_menu{
+	height: 50px;
+}
+.menu_button{
+	padding: 50px 0 10px 0;
+	float: left;
+	margin: 0 10px 0 0;
+}
+.menu_button a{
+	border-radius: 2px;
+	padding: 4px 15px;
+	color: black;
+	font-family: 'ClearSans_l';
+}
+.menu_button a:hover{
+	color:red;
+}
+.sub_menu_button{
+	padding: 20px 0 10px 0;
+	float: left;
+	margin: 0 10px 0 0;
+}
+.sub_menu_button a{
+	border-radius: 2px;
+	padding: 4px 15px;
+	color: #777;
+	font-family: 'ClearSans_l';
+}
+.sub_menu_button a:hover{
+	color:red;
+}
+.LOGO_HOLDER{
+	margin-top: 25px;
+	text-align: center;
+	border-bottom: 1px solid #bbb;
+	padding: 10px 0;
+
+}
+.PRINT_HOLDER{
+		padding: 30px 0;
+}
+.embedimg{
+	text-align: left;
+	float: left;
+}
+.embedimg img{
+	width: 200px;
+	margin: 0 20px 15px 0;
+	border: 1px solid transparent
+}
+.embedimg img:hover{
+	border-color:red;
+}
+.narrow{
+	width: 100%;
+	overflow: hidden;
+	margin: 40px 0 30px 0;
+}
+.narrow_inner{
+	padding: 0
+}
+.SUMMARY_HOLDER{
+	font-size: 18px;
+	width: 800px;
+	margin: 50px auto 100px auto;
+	position: relative;
+	overflow: hidden;
+}
+.SUMMARY_HOLDER b{
+	font-family: 'ClearSans_m';
+}
+.PRINT_HOLDER img{
+	height: 100px;
+	margin: 15px 15px 0 0;
+	border: 1px solid transparent;
+}
+.PRINT_HOLDER img:hover{
+	border-color: red;
+}
+
+
+.PRINT_HOLDER_L{
+	width: 370px;
+	float: left;
+}
+.PRINT_HOLDER_R{
+	width: 370px;
+	float: right;
+}
+
+.LOGO_HOLDER span{
+	margin: 20px 0 0 15px;
+	display: block;
+	position: relative;
+}
+.LOGO_HOLDER span .goarrow{
+	width: 15px;
+	position: absolute;
+	top: 0;
+	left: 180px;
+	display: none;
+}
+.LOGO_HOLDER img{
+	width: 100%;
+	padding: 0px;
+		width: 500px;
+
+}
+
+.readings_button,.publication_button{
+	padding: 20px 0;
+	float: left;
+	margin: 0 10px 0 0;
+}
+.readings_button a,.publication_button a{
+	border-radius: 2px;
+	padding: 4px 10px;
+	color: white;
+	font-family: 'ClearSans_l';
+}
+.readings_button a{
+	background: red;
+}
+.publication_button a{
+	background: black;
+}
+.readings_button a:hover{
+	background: black;
+}
+.publication_button a:hover{
+	background: red;
+}
+.titles{
+	margin: 15px 0 -15px 15px;
+	font-weight: bold;
+}
+.titles2{
+	width: 100%;
+	display: block;
+	font-weight: bold;
+}
+.list{
+	padding: 0px 0 20px 30px;
+	display: block;
+}
+.list a{
+	color:red;
+}
+.list a:hover{
+	color:black;
+}
+.grid{
+	width: 840px;
+	margin: 50px 0;
+}
+.grid_img{
+	width: 180px;
+	height: 180px;
+	overflow: hidden;
+	margin: 0 20px 20px 0;
+	float: left;
+}
+.grid_img img{
+	height: 100%;
+	cursor: pointer;
+}
+.post{
+	margin: 30px 0 100px 0;
+	border-top: 3px solid red;
+}
+.post a{ 
+	color:black;
+}
+.post a:hover{ 
+	color:red;
+}
+.post_title{
+	color:red;
+	font-size: 40px;
+	line-height: 5px;
+	padding: 0 0 15px 0;
+}
+.post img{
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+}
+.post_screenshot{
+	width: 100%;
+	text-align: center;
+}
+
+
+/*IMAGE POPUP*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 0 20px;
+    border: 1px solid #888;
+    /*width: 80%; /* Could be more or less, depending on screen size */
+    width: 600px; /* Could be more or less, depending on screen size */
+}
+.modal-content img {
+    width: 100%;
+}
+
+/* The Close Button */
+.close {
+    color: #000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 0 0;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
